@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faruk Ajom | Senior Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav-container container">
+            <a href="#" class="logo">Faruk<span>.dev</span></a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="hero">
+            <div class="container hero-content">
+                <span class="badge">5+ Years of Industry Experience</span>
+                <h1>Faruk Ajom</h1>
+                <h2>Professional Web Developer</h2>
+                <p>Architecting scalable, responsive, and performance-driven web solutions from Patiya, Chittagong.</p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary">Hire Me</a>
+                    <a href="#experience" class="btn btn-secondary">View Work</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container" id="about">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I am a dedicated Web Developer with half a decade of hands-on experience in building modern web applications. Specialized in writing clean, scalable code and delivering seamless user interfaces that bridge design and technology seamlessly.</p>
+                </div>
+                <div class="about-info-cards">
+                    <div class="info-card">
+                        <i class="fas fa-briefcase"></i>
+                        <h3>Experience</h3>
+                        <p>5+ Years Active</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-location-dot"></i>
+                        <h3>Location</h3>
+                        <p>Patiya, Chittagong</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container" id="skills">
+            <h2 class="section-title">Core Competencies</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-html5"></i>
+                    <h3>Frontend Development</h3>
+                    <p>HTML5, CSS3, JavaScript (ES6+), Responsive Architecture</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Web Optimization</h3>
+                    <p>Performance Tuning, Cross-Browser Compatibility, SEO Best Practices</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-git-alt"></i>
+                    <h3>Version Control</h3>
+                    <p>Git Workflows, GitHub Pages Deployment, CI/CD Fundamentals</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container" id="experience">
+            <h2 class="section-title">Professional Journey</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="date">2021 - Present</span>
+                        <h3>Senior Web Developer</h3>
+                        <p>Leading web development projects, engineering custom client solutions, and optimizing applications for performance and accessibility.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="date">2019 - 2021</span>
+                        <h3>Frontend Web Developer</h3>
+                        <p>Developed responsive layouts, maintained cross-platform standard UI components, and integrated backend APIs.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container" id="contact">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:kazimdfarukajom77@gmail.com">kazimdfarukajom77@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <a href="tel:01863936834">+880 1863-936834</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-location-dot"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Patiya, Chittagong, Bangladesh</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; <span id="year"></span> Faruk Ajom. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
